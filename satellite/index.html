@@ -3,16 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            a img { padding-left: 4px; padding-right: 4px; height: 32px; width: 32px; }
+        </style>
     </head>
     <body>
-        <h1>satellite Links</h1>
-        <ul>
-            <li><a href="satellite://dialpad">Dialpad</a></li>
-        </ul>
-
-        <h1>HTTPS Links</h1>
-        <ul>
-            <li><a href="https://open.satellite.me/dialpad">Dialpad</a></li>
-        </ul>
+        <h1>Deeplinks</h1>
+        <table>
+            <tr>
+                <td class="dest">Dialpad</td>
+                <td><a href="satellite://dialpad"><img src="satellite.svg"></a></td>
+                <td><a href="https://open.satellite.me/dialpad"><img src="http.svg"></a></td>
+            </tr>
+        </table>
     </body>
 </html>
