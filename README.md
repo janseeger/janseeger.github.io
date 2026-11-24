@@ -1,1 +1,1 @@
-Reach me via [janseeger.github.io](https://janseeger.github.io)
+Reach me via [jan.alphadev.net](https://jan.alphadev.net)
